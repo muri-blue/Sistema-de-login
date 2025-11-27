@@ -1,0 +1,88 @@
+body {
+
+    margin: 0;
+    background-color: #174580;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div {
+
+   
+    place-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #BEE6FE;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 450px;
+}
+
+div h1 {
+
+    font-family: Raleway;
+    margin-top: 0;
+    margin-bottom: 70px;
+    color: #174580;
+}
+
+.entrada {
+
+    font-family: Raleway;
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    color: #174580;
+    background-color: #BEE6FE;
+    border-color: #174580;
+    border-style: solid;
+    font-weight: bold;
+
+}
+
+.entrada:focus {
+    outline: none;
+
+}
+
+input::placeholder {
+
+    font-weight: bold;
+    color: #174580;
+
+}
+
+.botao {
+
+    background-image:linear-gradient(#BEE6FE, #174580);;
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:#174580;
+    font-family: Raleway;
+    font-weight: bold;
+    color: #002049;
+    
+
+}
+
+@media (max-width: 600px) {
+    div {
+        padding: 30px;
+        margin: 20px ;
+    }
+
+    div h1 {
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+    }
+
+    .entrada {
+        padding: 12px;
+    }
+}
